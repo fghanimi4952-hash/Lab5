@@ -48,7 +48,7 @@ techmarket-app/
 └── README.md                 # Ce fichier
 ```
 
-## 📝 Description des fichiers
+##  Description des fichiers
 
 ### `App.js`
 - Point d'entrée de l'application
