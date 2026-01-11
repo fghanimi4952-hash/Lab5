@@ -1,6 +1,6 @@
 # Lab 5 : Afficher un grand catalogue avec FlatList (TechMarket App)
 
-## 📋 Objectifs du lab
+##  Objectifs du lab
 
 À la fin de ce lab, l'étudiant sera capable de :
 - Définir une liste de données (tableau d'objets) pour un catalogue
@@ -9,7 +9,7 @@
 - Utiliser keyExtractor pour gérer les clés
 - Appliquer des styles avec StyleSheet pour séparer présentation et logique
 
-## 🎯 Contexte pédagogique
+##  Contexte pédagogique
 
 On veut développer une petite application mobile appelée **TechMarket**, qui affiche une liste de produits technologiques (smartphones, laptops, casques, etc.) avec :
 - le nom du produit
@@ -18,13 +18,13 @@ On veut développer une petite application mobile appelée **TechMarket**, qui a
 
 Le catalogue peut contenir des dizaines d'articles, donc on veut un défilement fluide sans ralentir l'application. **FlatList** est donc le composant idéal.
 
-## 📦 Pré-requis
+##  Pré-requis
 
 - Avoir un environnement React Native fonctionnel (Expo ou React Native CLI)
 - Savoir créer un projet React Native basique
 - Avoir déjà vu les composants View, Text, StyleSheet
 
-## 🚀 Installation
+##  Installation
 
 ### Étape 0 – Créer le projet
 
@@ -38,7 +38,7 @@ npm start
 
 Lancer ensuite l'application dans un émulateur ou sur un téléphone.
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 techmarket-app/
@@ -61,7 +61,7 @@ techmarket-app/
 - Utilise `FlatList` pour afficher la liste de manière performante
 - Contient tous les styles avec `StyleSheet`
 
-## 🔑 Concepts clés
+##  Concepts clés
 
 ### FlatList
 - Composant optimisé pour les longues listes
@@ -80,7 +80,7 @@ techmarket-app/
 - Optimisation des performances
 - Meilleure organisation du code
 
-## 🎨 Résultat attendu
+##  Résultat attendu
 
 L'application affiche :
 - Un titre "Catalogue TechMarket" en haut
@@ -89,14 +89,14 @@ L'application affiche :
   - Prix en orange/rose à droite
   - Chaque produit dans une carte blanche avec bordure
 
-## 🧪 Tester l'application
+##  Tester l'application
 
 1. Lancer l'application : `npm start`
 2. Scanner le QR code avec Expo Go (sur téléphone) ou ouvrir dans un émulateur
 3. Vérifier que la liste défile correctement
 4. Vérifier que tous les produits s'affichent
 
-## 💡 Extensions (optionnelles)
+##  Extensions (optionnelles)
 
 Quelques pistes d'enrichissement :
 - Ajouter un champ `category` pour chaque produit et l'afficher
@@ -104,16 +104,12 @@ Quelques pistes d'enrichissement :
 - Ajouter un `ListHeaderComponent` pour afficher un sous-titre
 - Ajouter un `ItemSeparatorComponent` pour dessiner une ligne de séparation
 
-## 📚 Résumé
+##  Résumé
 
 Dans ce lab, vous avez :
-- ✅ défini un catalogue de produits sous forme de tableau d'objets
-- ✅ créé un composant `ProductItem` pour isoler l'affichage d'un élément
-- ✅ utilisé FlatList avec les props `data`, `renderItem` et `keyExtractor`
-- ✅ appliqué des styles structurés via `StyleSheet`
-- ✅ intégré l'écran dans `App.js` via un composant dédié (`ProductList`)
+-  défini un catalogue de produits sous forme de tableau d'objets
+-  créé un composant `ProductItem` pour isoler l'affichage d'un élément
+-  utilisé FlatList avec les props `data`, `renderItem` et `keyExtractor`
+-  appliqué des styles structurés via `StyleSheet`
+-  intégré l'écran dans `App.js` via un composant dédié (`ProductList`)
 
-## 📖 Ressources
-
-- [Documentation FlatList - React Native](https://reactnative.dev/docs/flatlist)
-- [Documentation StyleSheet - React Native](https://reactnative.dev/docs/stylesheet)
